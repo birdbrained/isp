@@ -22,7 +22,7 @@
     "broccoli-asset-rev": "^2.4.2",
     "ember-ajax": "^2.0.1",
     "ember-bootstrap": "0.7.0",
-    "ember-cli": "2.8.0",
+    "ember-cli": "^3.4.3",
     "ember-cli-app-version": "^1.0.0",
     "ember-cli-babel": "^5.1.6",
     "ember-cli-dependency-checker": "^1.2.0",
@@ -44,7 +44,7 @@
     "ember-data-url-templates": "0.1.1",
     "ember-drag-drop": "^0.3.4",
     "ember-export-application-global": "^1.0.5",
-    "ember-flag-icon-css": "git://github.com/samchrisinger/ember-flag-icon-css.git#144039ca0401e275c850c201d6ceb73ac5cb73bc",
+    "ember-flag-icon-css": "https://github.com/samchrisinger/ember-flag-icon-css.git#144039ca0401e275c850c201d6ceb73ac5cb73bc",
     "ember-get-config": "0.0.4",
     "ember-getowner-polyfill": "1.0.1",
     "ember-i18n": "4.3.1",
@@ -67,11 +67,14 @@
     ]
   },
   "dependencies": {
+    "bower": "^1.8.4",
     "broccoli-auto-generated": "0.0.3",
     "broccoli-funnel": "^1.0.6",
     "broccoli-merge-trees": "^1.1.4",
     "broccoli-sass": "^0.7.0",
     "dotenv": "^2.0.0",
-    "ember-radio-buttons": "^4.0.1"
+    "ember": "^1.0.3",
+    "ember-radio-buttons": "^4.0.1",
+    "node-sass": "^4.9.3"
   }
 }

@@ -12,7 +12,7 @@ module.exports = function(defaults) {
             importBootstrapFont: false
         },
 
-        babel: {
+        'ember-cli-babel': {
             optional: ['es6.spec.symbols'],
             includePolyfill: true
         },
@@ -51,7 +51,7 @@ module.exports = function(defaults) {
         destDir: 'fonts'
     });
 
-    app.import('bower_components/file-saver/FileSaver.min.js');
+    //app.import('bower_components/file-saver/FileSaver.min.js');
 
     return app.toTree();
 };

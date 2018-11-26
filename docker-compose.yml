@@ -1,0 +1,21 @@
+version: "3.4"
+
+services:
+  isp:
+    build: .
+    image: isp:develop
+    # Mount the current directory into `/app` inside the running container.
+    volumes:
+      - '.:/code'
+    command: ./node_modules/.bin/ember s
+    ports:
+      - target: 4200
+        published: 4200
+        protocol: tcp
+        mode: host
+
+  jam:
+    
+  mongo:
+  elastic:
+
